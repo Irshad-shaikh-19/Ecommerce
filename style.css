@@ -1,0 +1,1661 @@
+/* CSS FOR HEADER */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    background-color: rgb(215, 226, 248);
+    height: 90px;
+    padding: 10px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 55px;
+}
+
+.right-align {
+    float: right;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.button1 {
+    border: 2px solid yellow;
+    background-color: rgb(196, 11, 11);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 0;
+
+}
+
+
+
+
+
+
+
+/* CSS FOR FOOTER */
+
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(215, 226, 248);
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+.footer1 {
+    width: 185px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+
+.footer2 {
+    width: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    gap: 7px;
+}
+
+
+.footer button {
+    width: 103px;
+    height: 27px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(196, 11, 11);
+    color: white;
+    border: none;
+}
+
+
+.footer input {
+    height: 26px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS FOR INDEX(HOMEPAGE) */
+
+.banner {
+    background-color: rgb(215, 226, 248);
+    height: 350px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.button2 {
+    border: none;
+    background-color: rgb(196, 11, 11);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 180px;
+    margin: 20px;
+    color: white;
+}
+
+
+.red {
+    color: red;
+}
+
+
+.p1 {
+    margin-top: 15px;
+    color: rgb(69, 67, 67);
+    font-size: xx-large;
+}
+
+
+.font {
+    font-weight: 200;
+}
+
+
+.center {
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.center2 {
+    text-align: center;
+    font-size: larger;
+    color: rgb(98, 98, 98);
+}
+
+
+.center3 {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.img1 {
+    border: none;
+    border-radius: 50%;
+}
+
+
+.collection-main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.collection {
+
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.offer-main {
+    height: 500px;
+    width: 100%;
+    background-image: url('static/images/eCommerce-2.webp');
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+.offer {
+    background-color: white;
+    height: 300px;
+    border-radius: 20px;
+    gap: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.offer button {
+    width: 120px;
+    background-color: rgb(196, 11, 11);
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.service-main {
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(215, 226, 248);
+}
+
+
+.service {
+    height: 165px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    font-size: small;
+    gap: 3px;
+}
+
+
+
+
+
+
+
+
+
+/* CSS FOR SHOP */
+
+.maincard {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+.innercard {
+    height: 470px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+
+.innercard:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+
+.innercard img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.innercard h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.innercard p {
+    font-size: 15px;
+    color: #454444;
+    padding: 0 10px;
+}
+
+
+.innercard button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 17px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+/* CSS FOR BLOG */
+
+.blog-main {
+
+    width: 70%;
+    border: none;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    border-radius: 15px;
+    margin: 40px auto;
+}
+
+
+.innerblog {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 20px;
+    flex-direction: column;
+}
+
+
+.innerblog h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+.innerblog p {
+    font-size: 20px;
+    color: rgb(142, 139, 135);
+}
+
+
+.innerblog button {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(0, 122, 255);
+    border-radius: 7px;
+    height: 50px;
+    width: 134px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.blog-video1 {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+.innervideo1 {
+    width: 45%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.innervideo1 iframe {
+    height: 85%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.video1-content {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+
+.video1-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.video1-content p {
+    text-align: left;
+    font-size: 22px;
+    color: rgb(142, 139, 135);
+}
+
+
+.video1-content button {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: rgb(237, 27, 36);
+}
+
+
+.blog-video2 {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    margin: 40px auto;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+.innervideo2 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.innervideo2 video {
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+.video2-content {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px 20px;
+}
+
+
+.video2-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.video2-content p {
+    text-align: left;
+    font-size: 22px;
+    color: rgb(142, 139, 135);
+}
+
+
+.video2-content button {
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: rgb(237, 27, 36);
+}
+
+
+.review-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+
+.innerreview {
+    width: 400px;
+    height: 500px;
+    border: none;
+    background-color: rgb(245, 243, 243);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 10px;
+}
+
+
+.innerreview h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+
+.innerreview p {
+    font-size: 20px;
+    color: rgb(142, 139, 135);
+}
+
+
+.innerreview img {
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 167px;
+    width: 174px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+/* CSS FOR CONTACT(FORM) */
+
+.form-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.form-card {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background-color: rgb(230, 237, 250);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 5px;
+}
+
+
+.form-card2 {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background-color: rgb(230, 237, 250);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 5px;
+}
+
+.form-card2 input[type="email"] {
+    width:360px;
+    height: 35px;
+}
+
+
+.form-card p {
+    font-size: 15px;
+}
+
+
+.form-card2 label {
+    font-size: 15px;
+}
+
+
+.form-inp {
+    width: 360px;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.form-card2 textarea {
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+
+.form-btn {
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    background-color: rgb(57, 57, 249);
+    color: white;
+    border-radius: 5px;
+}
+
+.map {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* CSS FOR ABOUT */
+
+.about-main {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+.about-image {
+    width: 50%;
+    height: 350px;
+    padding: 30px;
+}
+
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.about-p {
+    width: 50%;
+    text-align: justify;
+    padding: 5px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+
+
+.about-p h1 {
+    margin-bottom: 20px;
+}
+
+
+.mission-p {
+    width: 50%;
+    text-align: justify;
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+
+.mission-p h1 {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* CSS FOR SIGN-UP AND LOGIN */
+
+.sign-form {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+legend {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.s-table tr {
+    margin-bottom: 15px;
+    display: table-row;
+}
+
+
+.s-table td {
+    padding: 10px;
+}
+
+
+.s-table label {
+    margin-right: 10px;
+}
+
+
+.s-table input[type="text"],
+input[type="password"],
+input[type="email"] {
+    margin-bottom: 10px;
+    height: 31px;
+    width: 400px;
+}
+
+
+.s-table textarea,
+select {
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 3px;
+}
+
+
+.s-table input[type="submit"],
+input[type="reset"] {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(0, 122, 255);
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------- MEDIA QUERY FOR 1200PX BREAKPOINT------------------------ */
+
+@media only screen and (max-width: 1200px) {
+
+    /* MEDIA QUERY FOR BLOG PAGE(1200PX) */
+    .blog-video1 {
+        width: 70%;
+        height: auto;
+    }
+
+
+    .innervideo1 {
+        width: 45%;
+        height: 200px;
+    }
+
+
+    .innervideo1 iframe {
+        height: 95%;
+        width: 95%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+    .video1-content {
+        width: 55%;
+        height: auto;
+        gap: 15px;
+        padding: 10px 6px;
+    }
+
+
+    .video1-content h2 {
+        font-size: 25px;
+    }
+
+
+    .video1-content p {
+        text-align: left;
+        font-size: 17px;
+    }
+
+
+    .video1-content button {
+        width: 100%;
+        height: 25px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+
+    .blog-video2 {
+        width: 70%;
+        height: auto;
+    }
+
+    .innervideo2 {
+        width: 45%;
+        height: 200px;
+    }
+
+
+    .innervideo2 video {
+        height: 95%;
+        width: 95%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+    .video2-content {
+        width: 55%;
+        height: auto;
+        gap: 15px;
+        padding: 10px 6px;
+    }
+
+
+    .video2-content h2 {
+        font-size: 25px;
+    }
+
+
+    .video2-content p {
+        text-align: left;
+        font-size: 17px;
+    }
+
+
+    .video2-content button {
+        width: 100%;
+        height: 25px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+/*------------------------------ MEDIA QUERY FOR 1038PX BREAKPOINT--------------------------- */
+
+@media only screen and (max-width: 1038px) {
+
+
+    /* MEDIA QUERY FOR FOOTER(1038PX) */
+    .footer2 {
+        text-align: center;
+        gap: 3px;
+        margin-top: 2px;
+    }
+
+    .footer2 input {
+        width: 200px;
+        height: 23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        gap: 3px;
+    }
+
+    .footer2 button {
+        width: 100px;
+        margin: 4px auto;
+    }
+
+    .footer p,
+    .footer2 p {
+        font-size: 13px;
+    }
+
+
+
+
+
+    /* MEDIA QUERY FOR SHOP PAGE(1038PX) */
+    .innercard {
+        margin: 10px;
+    }
+
+
+
+
+    /* MEDIA QUERY FOR BLOG PAGE(1038PX) */
+    .blog-main {
+        height: auto;
+    }
+
+    .innerblog p {
+        font-size: 18px;
+    }
+
+    .innerblog h1 {
+        font-size: 35px;
+    }
+
+    .innerblog button {
+        padding: 5px 10px;
+        border-radius: 5px;
+        height: 40px;
+        width: 114px;
+        font-size: 13px;
+
+    }
+
+    .review-main {
+        flex-wrap: wrap;
+    }
+
+    .innerreview {
+        height: auto;
+        width: 350px;
+    }
+
+
+
+
+
+
+    /* MEDIA QUERY FOR CONTACT(FORM)--(1038PX) */
+    .form-card {
+        width: 350px;
+
+    }
+
+    .form-card2 {
+        width: auto;
+    }
+
+
+
+
+
+    /* MEDIA QUERY FOR ABOUT PAGE(1038PX) */
+    .about-p {
+        font-size: 14px;
+
+
+    }
+
+    .about-p h1 {
+        font-size: 25px;
+    }
+
+
+    .mission-p {
+        font-size: 14px;
+
+    }
+
+    .mission-p h1 {
+        font-size: 25px;
+    }
+
+}
+
+
+
+
+
+/*---------------------------- MEDIA QUERY FOR 768PX BREAKPOINT---------------------------- */
+
+@media only screen and (max-width: 768px) {
+
+
+    /* MEDIA QUERY FOR HEADER(768PX) */
+    .nav {
+        height: auto;
+
+
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+
+    .nav li {
+        font-size: 14px;
+    }
+
+    .button1 {
+        width: 100px;
+        padding: 5px;
+    }
+
+
+
+
+
+    /* MEIDA QUERY FOR FOOTER(768PX) */
+    .footer {
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+    /* MEDIA QUERY FOR INDEX PAGE(768PX) */
+    .service {
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+
+    .service-main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+    }
+
+    .p1 {
+        font-size: 30px;
+    }
+
+    .offer p {
+        font-size: 17px;
+    }
+
+
+
+
+
+    /* MEDIA QUERY FOR SHOP PAGE(768PX) */
+
+    .maincard {
+        height: auto;
+    }
+
+
+    .innercard {
+        height: 370px;
+        width: 250px;
+        gap: 10px;
+        transition: all 0.5s ease-in-out;
+
+
+    }
+
+    .innercard:hover {
+        transform: translateY(-7px);
+        cursor: pointer;
+    }
+
+    .innercard img {
+        width: 100%;
+        height: 150px;
+
+    }
+
+
+    .innercard h2 {
+        font-size: 22px;
+
+    }
+
+    .innercard p {
+        font-size: 14px;
+        color: #454444;
+
+    }
+
+    .innercard button {
+        padding: 10px 20px;
+        font-size: 13px;
+        margin: 14px 2px;
+    }
+
+
+
+
+    /* MEDIA QUERY FOR BLOG PAGE(768PX) */
+    .blog-main {
+        height: auto;
+        width: 80%;
+
+    }
+
+    .blog-main h1 {
+        font-size: 27px;
+    }
+
+    .blog-main p {
+        font-size: 15px;
+    }
+
+    .blog-main button {
+        font-size: 15px;
+        padding: 5px;
+        height: 30px;
+
+    }
+
+    .innerblog {
+        gap: 10px;
+    }
+
+
+    .blog-video1 {
+        width: 80%;
+        height: auto;
+    }
+
+    .innervideo1 {
+        width: 50%;
+        height: 200px;
+    }
+
+    .innervideo1 iframe {
+        height: 89%;
+        width: 100%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .video1-content {
+        width: 50%;
+        height: auto;
+        gap: 13px;
+        padding: 10px 6px;
+    }
+
+    .video1-content h2 {
+        font-size: 25px;
+
+    }
+
+    .video1-content p {
+        text-align: left;
+        font-size: 14px;
+
+    }
+
+    .video1-content button {
+        width: 100%;
+        height: 25px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 13px;
+
+    }
+
+
+    .blog-video2 {
+        width: 80%;
+        height: auto;
+    }
+
+    .innervideo2 {
+        width: 50%;
+        height: 200px;
+
+
+    }
+
+    .innervideo2 video {
+        height: 89%;
+        width: 100%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .video2-content {
+        width: 50%;
+        height: auto;
+        gap: 13px;
+        padding: 10px 6px;
+    }
+
+    .video2-content h2 {
+        font-size: 25px;
+    }
+
+    .video2-content p {
+        text-align: left;
+        font-size: 14px;
+    }
+
+
+    .video2-content button {
+        width: 100%;
+        height: 25px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+    .innerreview {
+        height: auto;
+        width: 320px;
+    }
+
+
+
+
+
+
+    /* MEIDA QUERY FOR CONTACT(FORM) PAGE (768PX) */
+    .form-card {
+        width: 300px;
+        height: 400px;
+        padding: 10px;
+        margin: 7px auto;
+
+    }
+
+    .form-card2 {
+        width: 300px;
+        height: auto;
+        padding: 10px;
+        margin: 7px auto;
+    }
+
+
+    .form-card2 label {
+        font-size: 15px;
+    }
+
+    .form-inp {
+        width: 270px;
+        height: 30px;
+
+    }
+
+    .form-card2 textarea {
+        width: 270px;
+
+    }
+
+
+
+
+    /* MEDIA QUERY FOR ABOUT PAGE(768PX) */
+    .about-main {
+        width: 70%;
+        flex-direction: column;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 300px;
+        padding: 10px;
+
+        border-radius: 10px;
+    }
+
+
+    .about-p {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .about-p h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .mq {
+        flex-direction: column-reverse;
+    }
+
+
+    .mission-p {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .mission-p h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    /* MEDIA QUERY FOR SIGN-UP AND LOGIN PAGE(768PX) */
+    .sign-form {
+
+        width: 350px;
+    }
+
+    legend {
+        font-size: 17px;
+    }
+
+    .s-table td {
+        padding: 5px;
+    }
+
+
+    .s-table label {
+        margin-right: 5px;
+    }
+
+    .s-table input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        margin-bottom: 7px;
+        height: 25px;
+        width: 300px;
+
+    }
+
+    .s-table textarea,
+    select {
+        margin-bottom: 5px;
+        width: 300px;
+    }
+
+    .s-table input[type="submit"],
+    input[type="reset"] {
+        margin-bottom: 5px;
+        height: 27px;
+        width: 100px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------- MEDIA QUERY FOR 688PX BREAKPOINT--------------------------------- */
+
+
+
+@media only screen and (max-width:688px) {
+
+    /* MEDIA QUERY FOR BLOG PAGE(688PX) */
+    .blog-main {
+        width: 70%;
+    }
+
+    .blog-video1 {
+        flex-direction: column;
+    }
+
+    .blog-video1 {
+        width: 70%;
+        height: auto;
+    }
+
+    .innervideo1 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .innervideo1 iframe {
+        height: 100%;
+        width: 95%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .video1-content {
+        width: 100%;
+        height: auto;
+        gap: 13px;
+        padding: 10px 6px;
+    }
+
+    .video1-content h2 {
+        margin: 0 auto;
+        font-size: 25px;
+
+    }
+
+    .video1-content p {
+        text-align: left;
+        font-size: 14px;
+
+    }
+
+
+    .blog-video2 {
+        flex-direction: column-reverse;
+    }
+
+
+    .blog-video2 {
+        width: 70%;
+        height: auto;
+    }
+
+    .innervideo2 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .innervideo2 video {
+        height: 100%;
+        width: 95%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .video2-content {
+        width: 100%;
+        height: auto;
+        gap: 13px;
+        padding: 10px 6px;
+    }
+
+    .video2-content h2 {
+        margin: 0 auto;
+        font-size: 25px;
+
+    }
+
+    .video2-content p {
+        text-align: left;
+        font-size: 14px;
+
+    }
+
+    .innerreview {
+        height: auto;
+        width: 300px;
+    }
+
+
+
+
+
+
+    /* MEDIA QUERY FOR SIGN-UP AND LOGIN PAGE(688PX) */
+    .sign-form {
+        width: 300px;
+    }
+
+    .s-table input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        width: 250px;
+
+    }
+
+    .s-table textarea,
+    select {
+        margin-bottom: 5px;
+        width: 250px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------ MEDIA QUERY FOR 425PX BREAKPOINT--------------------------- */
+
+@media only screen and (max-width: 425px) {
+
+    /* MEDIA QUERY FOR HEADER(425PX) */
+    .nav {
+        height: auto;
+        width: 100%;
+    }
+
+    .nav li {
+        font-size: 16px;
+    }
+
+    .button1 {
+        font-size: 16px;
+        padding: 5px 10px;
+        width: 110px;
+    }
+
+
+    /* MEDIA QUERY FOR INDEX PAGE(425PX) */
+    .banner {
+        width: 100vw;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+    }
+
+    .font {
+        font-size: 20px;
+    }
+
+    .p1 {
+        font-size: 23px;
+    }
+
+
+
+    /* MEDIA QUERY FOR BLOG PAGE(425PX) */
+
+    .innervideo1 {
+        height: 200px;
+    }
+
+    .innerreview {
+        height: auto;
+        width: 280px;
+
+    }
+
+    .innerreview audio {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+    /*MEDIA QUERY FOR SIGN-UP AND LOGIN FORM(425PX)  */
+    .sign-form {
+
+        width: 300px;
+    }
+
+    legend {
+        font-size: 15px;
+    }
+
+    .s-table td {
+        padding: 4px;
+    }
+
+
+    .s-table label {
+        margin-right: 4px;
+    }
+
+    .s-table input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        margin-bottom: 6px;
+        height: 20px;
+        width: 200px;
+
+    }
+
+    .s-table textarea,
+    select {
+        margin-bottom: 4px;
+        width: 200px;
+    }
+
+    .s-table input[type="submit"],
+    input[type="reset"] {
+        margin-bottom: 4px;
+        height: 25px;
+        width: 100px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+
+
+}
